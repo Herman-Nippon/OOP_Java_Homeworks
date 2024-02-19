@@ -1,3 +1,4 @@
+### Console output:
 ```
 Foreach loop of stream 2:
 
