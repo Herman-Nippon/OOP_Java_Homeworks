@@ -21,9 +21,8 @@ public class StudentGroup {
 
     @Override
     public String toString() {
-        return "StudentGroup{" +
+        return "StudentGroup:\n" +
                 "teacher=" + teacher +
-                ", studentList=" + studentList +
-                '}';
+                "\nstudentList=" + studentList + '\n';
     }
 }
