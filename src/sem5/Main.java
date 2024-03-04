@@ -9,6 +9,15 @@ public class Main {
         controller.createStudent("Artyom", "Man", "Ivanovich");
         controller.createTeacher("Kirill", "Ivanov", "Moiseev");
         controller.createStudent("Alex", "Serg", "Pushkin");
+
+        controller.createStudent("John", "William", "Smith");
+        controller.createStudent("Sarah", "Elizabeth", "Johnson");
+        controller.createTeacher("Michael", "Christopher", "Brown");
+        controller.createStudent("Emily", "Grace", "Davis");
         controller.printStudents();
+
+        controller.createStudentGroup();
+        controller.createStudentGroup();
+        controller.printGroups();
     }
 }

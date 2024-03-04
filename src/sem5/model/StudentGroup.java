@@ -18,4 +18,12 @@ public class StudentGroup {
     public List<Student> getStudentList() {
         return studentList;
     }
+
+    @Override
+    public String toString() {
+        return "StudentGroup{" +
+                "teacher=" + teacher +
+                ", studentList=" + studentList +
+                '}';
+    }
 }

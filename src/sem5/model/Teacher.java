@@ -2,6 +2,8 @@ package sem5.model;
 
 public class Teacher extends User {
     private int teacherID;
+    private boolean inGroup;
+
 
     public Teacher(int id, String firstName, String middleName, String surname) {
         super(firstName, middleName, surname);
@@ -15,5 +17,13 @@ public class Teacher extends User {
 
     public int getTeacherID() {
         return teacherID;
+    }
+
+    public boolean isInGroup() {
+        return inGroup;
+    }
+
+    public void setInGroup(boolean inGroup) {
+        this.inGroup = inGroup;
     }
 }
